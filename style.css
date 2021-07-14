@@ -291,5 +291,48 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-    
+    .header__container__banner {
+        width: 340px;
+    }
+    .header__container__banner__info__heading {
+        width: 278px;
+        font-size: 36px;
+        line-height: 50px;
+        height: 138px;
+        margin-top: 46.12px;
+    }
+    .header__container__banner__info__btn {
+        width: 168px;
+        height: 44px;
+        padding: 10px 24px;
+        margin-bottom: 50px;
+    }
+    .header__container__banner__info__btn__para {
+        font-size: 16px;
+    }
+    .header__container__banner__img {
+        width: 329px;
+        height: 259.17px;
+        margin: 0 0 61.83px 0;
+    }
+    .main__player,
+    .copa__team {
+        margin-top: 47px;
+        width: 330px;
+    }
+    .main__player__container,
+    .copa__team__container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+    }
+    .messi {
+        height: 400px;
+    }
+    .footer__logo__img {
+        width: 275.8px;
+        height: 63px;
+    }
+    .footer__para {
+        margin-bottom: 187px;
+    }
 }
